@@ -1,0 +1,6 @@
+!.terraform/terraform.tfstate
+!.terraform/plugins/linux_amd64/*
+.terraform
+Dockerfile
+.gitignore
+.ci.yml

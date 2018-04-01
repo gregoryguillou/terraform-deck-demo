@@ -7,7 +7,7 @@ const unzip = require('unzip')
 
 const containers = {
   demo: {
-    name: 'gregoryguillou/terraform-deck-stacks',
+    name: 'gregoryguillou/terraform-stacks',
     version: 'latest',
     path: 'demo'
   }

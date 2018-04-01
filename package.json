@@ -1,6 +1,6 @@
 {
-  "name": "terraform-deck-stacks",
-  "description": "A set of stacks to demonstrate terraform-deck",
+  "name": "terraform-stacks",
+  "description": "A set of stacks to demonstrate terraform-api",
   "version": "0.0.1",
   "main": "",
   "scripts": {

@@ -1,4 +1,4 @@
-FROM gregoryguillou/terraform-api:latest-runtime
+FROM gregoryguillou/terraform-api:runtime
 
 ARG GITHUB_REPOSITORY=https://github.com/gregoryguillou/terraform-stacks.git
 ARG CACHEBUST=1

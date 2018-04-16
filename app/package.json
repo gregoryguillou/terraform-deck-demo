@@ -1,0 +1,17 @@
+{
+  "name": "app",
+  "version": "0.1.2",
+  "description": "An application that reports the version of the project",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gregory Guillou",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.3",
+    "pug": "^2.0.3",
+    "request": "^2.85.0"
+  }
+}

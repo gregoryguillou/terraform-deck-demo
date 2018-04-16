@@ -7,8 +7,9 @@ function version (workspace, callback) {
       return callback(null, 'error')
     }
     if (response.statusCode === 200) {
-      callback(null, body)
+      return callback(null, body)
     }
+    return callback(null, 'error')
   })
 }
 

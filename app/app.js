@@ -31,9 +31,9 @@ app.get('/', function (req, res) {
       if (i === size) {
         let mytable = '<table>'
         mytable = mytable.concat('<tr><th>Workspace</th><th>Version</th></tr>')
-        for (var k in versions) {
+        Object.keys(versions).sort().forEach((k) => {
           mytable = mytable.concat(`<tr bgcolor="${versions[k].color}"><td>${k}</td><td>${versions[k].message}</td></tr>`)
-        }
+        })
         mytable = mytable.concat('</table>')
         return res.render('index', {mytable})
       }
